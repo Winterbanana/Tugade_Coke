@@ -1,0 +1,92 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark-mode {
+    background-color: #2c2c2c;
+    color: #fff;
+  }
+  
+  .navbar {
+    background-color: #E4002B; 
+    padding: 10px;
+  }
+  
+  .navbar-brand img {
+    width: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #FFD100; 
+  }
+  
+  .navbar-nav .nav-link i {
+    margin-right: 8px;
+  }
+  
+
+  button#darkModeToggle {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    color: #E4002B;
+  }
+  
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 1.1rem;
+    color: #E4002B;
+    margin-top: 10px;
+  }
+  
+  button.add-to-cart {
+    background-color: #E4002B;
+    color: white;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  button.add-to-cart:hover {
+    background-color: #FFD100;
+  }
+  
+  button#checkoutBtn {
+    background-color: #FFD100;
+    color: #E4002B;
+    font-size: 1.2rem;
+  }
+  
+  button#checkoutBtn:hover {
+    background-color: #E4002B;
+    color: white;
+  }
